@@ -1,0 +1,20 @@
+{
+    "name": "birodni",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "bin": "./bin/birodni.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@helloworldwriter-github:hwalab-developer/birodni.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "cloudinary": "^1.11.0",
+        "image-downloader": "^3.4.0"
+    }
+}

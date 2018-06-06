@@ -1,0 +1,25 @@
+{
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "extends": "eslint:all",
+    "rules": {
+        "array-element-newline": "off",
+        "arrow-parens": ["error", "as-needed"],
+        "curly": [ "error", "multi-line" ],
+        "func-style": "off",
+        "linebreak-style": ["error", "windows"],
+        "max-len": ["error", 120],
+        "multiline-ternary": [ "error", "always-multiline" ],
+        "no-ternary": "off",
+        "quote-props": ["error", "as-needed"],
+        "object-curly-spacing": "off",
+        "one-var": "off",
+        "padded-blocks": "off",
+        "space-before-function-paren": "off"
+    }
+}
